@@ -31,7 +31,7 @@ class Pipes {
     let l = this.x_values.length
     for (var i = 0; i < l; i++) {
       let y_gap = Math.random() * (height - this.gap)
-      fill(51, 127, 54)
+      fill(255, 255, 255)
       rect(a[i], 0, this.w, b[i])
       rect(a[i], b[i] + this.gap, this.w, height - b[i] + this.gap)
     }

@@ -55,7 +55,7 @@ class Bird {
   // show the bird on canvas
   show() {
     // use fill & ellipse from p5.js
-    fill(244, 0, 0) // red color rgb
+    fill(255, 255, 255)
     ellipse(this.x, this.y, this.radius, this.radius)
   }
 
