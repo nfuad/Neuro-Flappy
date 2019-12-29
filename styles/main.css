@@ -1,0 +1,33 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  font-family: monospace, sans-serif;
+  overflow: hidden;
+}
+
+.stats,
+.controls,
+.control-item {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.control-item {
+  flex-direction: column;
+}
+
+#reset {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: darkseagreen;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+#reset:hover {
+  background: darkslategray;
+}
